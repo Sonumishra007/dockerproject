@@ -1,4 +1,4 @@
-FROM apache2
+FROM httpd
 WROKDIR /var/www/html
 RUN rm index.html
 RUN touch index.html
